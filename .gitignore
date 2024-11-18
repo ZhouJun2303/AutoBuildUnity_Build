@@ -1,0 +1,47 @@
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log/OS Files
+*.log
+
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+output.json
+
+# IntelliJ
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Keystore files
+
+
+# Google Services (e.g. APIs or Firebase)
+# google-services.json
+
+# Android Profiling
+*.hprof
+
+*.aab
+
+.safedk/
+
+unityLibrary/symbols/
+unityLibrary/src/main/jniStaticLibs/
+unityLibrary/src/main/jniLibs/
+unityLibrary/src/main/assets/bin
+TempSymbols
+unityLibrary/src/main/assets
+unityLibrary/src/main/Il2CppOutputProject
+UnityDataAssetPack/src
+launcher/release/Temp.apks
+launcher/release/output-metadata.json
