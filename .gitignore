@@ -1,0 +1,13 @@
+Classes/Native
+Data
+FB
+HwAds
+Libraries/libiPhone-lib.a
+Libraries/libil2cpp.a
+DTBiOSSDK.framework
+ISAdQualitySDK
+HwISAdsFramework.framework
+TAThirdParty.framework
+ThinkingSDK.framework
+Libraries
+Pods
