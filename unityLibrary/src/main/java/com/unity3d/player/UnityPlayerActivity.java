@@ -34,7 +34,7 @@ public class UnityPlayerActivity extends Activity implements IUnityPlayerLifecyc
     {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         super.onCreate(savedInstanceState);
-
+//        getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE, WindowManager.LayoutParams.FLAG_SECURE);
         String cmdLine = updateUnityCommandLineArguments(getIntent().getStringExtra("unity"));
         getIntent().putExtra("unity", cmdLine);
 

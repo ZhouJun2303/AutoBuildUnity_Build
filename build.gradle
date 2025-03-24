@@ -3,6 +3,8 @@
 allprojects {
     buildscript {
         repositories {
+            maven { url 'https://maven.aliyun.com/repository/public' }  // 阿里云 Maven 中央镜像
+            maven { url 'https://maven.aliyun.com/nexus/content/groups/public/' }  // 阿里云公共仓库
             google()
             jcenter()
         }
@@ -14,6 +16,8 @@ allprojects {
     }
 
     repositories {
+        maven { url 'https://maven.aliyun.com/repository/public' }  // 阿里云 Maven 中央镜像
+        maven { url 'https://maven.aliyun.com/nexus/content/groups/public/' }  // 阿里云公共仓库
         google()
         jcenter()
         flatDir {
